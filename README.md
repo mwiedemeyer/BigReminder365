@@ -24,7 +24,7 @@ There is also a notification icon in the taskbar. It has no functionality right 
 
 ### I just want to download it
 
-Go to the release tab and download the zip file. Extract it and run `BigReminder365.exe`.
+Go to the [release tab](https://github.com/mwiedemeyer/BigReminder365/releases) and download the zip file. Extract it and run `BigReminder365.exe`.
 
 ### Technical Details
 
@@ -45,5 +45,7 @@ Go to [https://identity.microsoft.com](https://identity.microsoft.com) and regis
 If you change the scopes, update `s_scopes` in Form1.cs with your own permission scopes.
 The important thing here is the native app platform with these special redirect URIs.
 Below that you define the Microsoft Graph scopes.
+
+*Sorry for the german screenshot. You should be able to get the info you need even without knowing a german word.*
 
 ![](Screen_AppReg.png)
